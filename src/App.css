@@ -35,8 +35,8 @@ body {
   animation-timing-function: linear;
 
   position: absolute;
-  left: -50%;
   display: inline;
+  transform: translateX(-50vw);
 }
 
 .icon-item {
@@ -73,11 +73,11 @@ body {
 
 @keyframes item-move {
   from {
-    left: -20%;
+    transform: translateX(-20vw);
   }
 
   to {
-    left: 100%;
+    transform: translateX(100vw);
   }
 }
 
@@ -105,13 +105,14 @@ body {
 
   position: absolute;
   top: -40vh;
-  left: 0;
+  left: -300vw;
 
   background-repeat: repeat-x;
 
   animation-iteration-count: infinite;
   animation-name: bg-move;
   animation-timing-function: linear;
+  width: 400vw;
 }
 
 .level-bg-clouds-1 {
@@ -179,10 +180,10 @@ body {
 
 @keyframes bg-move {
   from {
-    background-position: 0%;
+    transform: translateX(0);
   }
 
   to {
-    background-position: 300%;
+    transform: translateX(300vw);
   }
 }
