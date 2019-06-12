@@ -40,7 +40,7 @@ class App extends Component {
   }
 
   onItemClicked = () => {
-    // Fill this in!
+    // Fill this in for Wave 3!
   }
 
   render() {
