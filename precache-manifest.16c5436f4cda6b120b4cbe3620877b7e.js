@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
     "revision": "498f9992458c9effd1af",
-    "url": "/litter-patrol/static/css/main.b9c65b67.chunk.css"
+    "url": "/litter-patrol/static/css/main.35e54b80.chunk.css"
   },
   {
     "revision": "498f9992458c9effd1af",
